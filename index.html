@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Pari Beauty Salon</title>
+    <style>
+        body {
+            background-image: url(dark-peach-paper-layer-cut-background-with-golden-edges-light-effect-vector.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px 10px;
+            justify-content: center;
+            border-radius: 20px;
+            gap: 10px;
+        }
+
+        .navbar li {
+            list-style: none;
+        }
+
+        .navbar a {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 153, 0, 0.8);
+            color: white;
+        }
+
+        .h4 {
+            background: none;
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            margin: 150px 20px 20px 20px;
+        }
+
+        .btn2 {
+            display: inline-block;
+            margin: 20px auto;
+            border-radius: 20px;
+            background-color: rgb(255, 153, 0);
+            border: 2px solid beige;
+            color: white;
+            padding: 12px 25px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn2:hover {
+            background-color: rgb(255, 120, 0);
+        }
+
+        /* Responsive Media Queries */
+        @media (max-width: 768px) {
+            .h4 {
+                font-size: 24px;
+                margin: 120px 15px 15px 15px;
+            }
+
+            .navbar a {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+
+            .btn2 {
+                font-size: 18px;
+                padding: 10px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .h4 {
+                font-size: 20px;
+                margin: 100px 10px 10px 10px;
+            }
+
+            .navbar {
+                padding: 15px 5px;
+            }
+
+            .navbar a {
+                font-size: 16px;
+                padding: 6px 8px;
+            }
+
+            .btn2 {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Portfolio/index.html">Portfolio</a></li>
+        <li><a href="Booking/appoint.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="h4">
+        <h2>Professional Makeup and Salon Services</h2>
+        <a class="btn2" href="Portfolio/index.html">Portfolio</a>
+    </div>
+</body>
+
+</html>

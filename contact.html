@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pari Beauty Salon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffdf8;
+            /* light white/cream */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d4af37;
+            /* gold */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+            /* soft gold shadow */
+        }
+
+        h2 {
+            text-align: center;
+            color: #b8860b;
+            /* dark gold */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        input,
+        textarea {
+            padding: 12px;
+            border: 1px solid #d4af37;
+            /* gold border */
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        button {
+            background-color: #d4af37;
+            /* gold */
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #b8860b;
+            /* dark gold on hover */
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+            color: #333;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        @media(max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pari Beauty Salon</h1>
+    </header>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p>📍 Address: 123 Main Street, Your City</p>
+            <p>📞 Phone: +92 300 1234567</p>
+            <p>✉ Email: info@paribeautysalon.com</p>
+        </div>
+    </div>
+</body>
+
+</html>
